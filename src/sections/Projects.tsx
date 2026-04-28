@@ -227,7 +227,7 @@ export default function ScrollStack() {
   }, [])
 
   return (
-    <div ref={wrapperRef} className="w-full h-full min-h-screen my-10 px-4">
+    <div ref={wrapperRef} id='projects' className="w-full h-full min-h-screen my-10 px-4">
       <div className="max-w-5xl mx-auto">
 
         <SectionHeader

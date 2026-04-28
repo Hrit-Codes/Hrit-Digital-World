@@ -25,11 +25,11 @@ export default function Profile(){
 
                     <p className="text-md md:text-lg text-white">Junior Full-Stack Developer specializing in high-performance cloud architectures and fluid, interactive user interfaces. Passionate about building scalable web applications that prioritize performance and user experience.</p>
 
-                    <div className="w-full h-full flex justify-center md:justify-start mt-2 md:mt-0 gap-2 uppercase">
+                    <div className="w-full h-full flex justify-center md:justify-start mt-2 md:mt-0 gap-2 ">
                         {/* Hire Me button - Teal gradient */}
-                        <button className="px-6 py-3 border-2 border-transparent bg-gradient-to-r from-[#006466] via-[#065a60] to-[#0b525b] hover:from-[#0b525b] hover:via-[#006466] hover:to-[#065a60] transition-all duration-300 rounded-xl font-medium cursor-pointer">
+                        <a href="#projects" className="px-6 py-3 border-2 border-transparent bg-gradient-to-r from-[#006466] via-[#065a60] to-[#0b525b] hover:from-[#0b525b] hover:via-[#006466] hover:to-[#065a60] transition-all duration-300 rounded-xl font-medium cursor-pointer">
                             View Projects
-                        </button>
+                        </a>
                         
                         {/* View Projects button - Purple/Dark gradient */}
                         <button className="px-6 py-3 border-2 border-white/10 bg-gradient-to-r from-[#272640] via-[#312244] to-[#3e1f47] hover:from-[#3e1f47] hover:via-[#4d194d] hover:to-[#272640] transition-all duration-300 rounded-xl font-medium text-white/90 hover:text-white cursor-pointer">
