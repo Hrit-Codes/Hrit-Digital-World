@@ -47,7 +47,7 @@ export default function Profile(){
                         </div>
 
                         <div className="flex flex-col gap-2">
-                            <h4 className="text-4xl">4+</h4>
+                            <h4 className="text-4xl">3+</h4>
                             <p className="text-sm text-[#64DFDF]">Projects Shipped</p>
                         </div>
 
