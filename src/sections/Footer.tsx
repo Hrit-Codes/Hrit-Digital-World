@@ -1,4 +1,4 @@
-import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import type { ReactNode } from "react";
 
 interface Social {
@@ -9,10 +9,10 @@ interface Social {
 
 export default function Footer() {
   const socials: Social[] = [
-    { href: "https://www.facebook.com/hrit.amatya.2025", icon: <Facebook size={18} />, label: "Facebook" },
-    { href: "https://www.instagram.com/i_am__hrit/", icon: <Instagram size={18} />, label: "Instagram" },
-    { href: "https://github.com/Hrit-Codes", icon: <Github size={18} />, label: "GitHub" },
-    { href: "https://www.linkedin.com/in/hrit-amatya-b23289379/", icon: <Linkedin size={18} />, label: "LinkedIn" },
+    { href: "https://www.facebook.com/hrit.amatya.2025", icon: <FaFacebook/>, label: "Facebook" },
+    { href: "https://www.instagram.com/i_am__hrit/", icon: <FaInstagram size={18} />, label: "Instagram" },
+    { href: "https://github.com/Hrit-Codes", icon: <FaGithub size={18} />, label: "GitHub" },
+    { href: "https://www.linkedin.com/in/hrit-amatya-b23289379/", icon: <FaLinkedin size={18} />, label: "LinkedIn" },
   ];
 
   return (
