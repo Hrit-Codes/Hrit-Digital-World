@@ -59,7 +59,7 @@ const PROJECTS: Project[] = [
     year: '2026',
     img:"/KalaPathar.png",
     link: 'https://travel.sangamshrestha007.com.np/',
-    isLinkActive:false
+    isLinkActive:true
   },
   {
     title: 'Techversity',
