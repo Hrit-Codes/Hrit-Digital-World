@@ -58,7 +58,7 @@ const PROJECTS: Project[] = [
     tags: ['Next.js', 'Express.js', 'MongoDB', 'GSAP', 'Node.js', 'TailwindCSS'],
     year: '2026',
     img:"/KalaPathar.png",
-    link: 'https://',
+    link: 'https://travel.sangamshrestha007.com.np/',
     isLinkActive:false
   },
   {
